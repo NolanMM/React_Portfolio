@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4876b743.css",
-    "main.js": "/static/js/main.3ea1f5ca.js",
+    "main.css": "/static/css/main.d050d3dc.css",
+    "main.js": "/static/js/main.564bb312.js",
     "static/media/header-image.jpg": "/static/media/header-image.a91cf7bd1b78386dfcb1.jpg",
     "static/media/AirportKiosk.png": "/static/media/AirportKiosk.8e0b1c0a2d6fa0371b85.png",
     "static/media/Sparkify.png": "/static/media/Sparkify.21c1b6d0397214fe53c9.png",
     "static/media/IBM.png": "/static/media/IBM.f8e50017e2aeebd391d5.png",
     "index.html": "/index.html",
-    "main.4876b743.css.map": "/static/css/main.4876b743.css.map",
-    "main.3ea1f5ca.js.map": "/static/js/main.3ea1f5ca.js.map"
+    "main.d050d3dc.css.map": "/static/css/main.d050d3dc.css.map",
+    "main.564bb312.js.map": "/static/js/main.564bb312.js.map"
   },
   "entrypoints": [
-    "static/css/main.4876b743.css",
-    "static/js/main.3ea1f5ca.js"
+    "static/css/main.d050d3dc.css",
+    "static/js/main.564bb312.js"
   ]
 }
