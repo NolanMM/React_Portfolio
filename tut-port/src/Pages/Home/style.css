@@ -1,0 +1,500 @@
+.image-container{
+    width: 60vw;
+    max-width: 600px;
+    position: relative;
+}
+
+.black-background{
+    position: absolute;
+    inset: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.name{
+    position: absolute;
+    top:30%;
+    left: -60%;
+}
+
+.name h2{
+    font-size: clamp(22px, 7vw, 95px);
+    letter-spacing: 4px;
+}
+
+.name .last{
+    margin: 100px 0 0 50px;
+}
+
+.position{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 220px;
+    width: clamp(280px, 25vw, 450px);
+}
+
+.position > div{
+    width: clamp(30px, 3vw, 70px);
+    height: 2px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.position h2{
+    letter-spacing: 2px;
+    font-size: clamp(16px, 1vw, 26px);
+}
+
+/* Section 2 */
+
+.section-title{
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    position:relative;
+}
+
+.section-title::after{
+    content: 'Projects';
+    position: absolute;
+    top: -15px;
+    left: -70px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.294);
+    color: transparent;
+    letter-spacing: 5px;
+}
+
+/* Portfolio */
+
+.portfolio-content{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 100px;
+}
+
+.position-card{
+    right: 0;
+    padding: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    min-width: 280px;
+    color: white;
+}
+
+.count{
+    position: absolute;
+    font-size: 16px;
+    left: -20px;
+    top: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.position-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-title h3{
+    color: white;
+    font-size: clamp(18px, 3vw, 35px);
+    letter-spacing: 5px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+/* Change the position of the title of the each project by width and height */
+.project-image{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Change the size of the images of the projects */
+.project-image img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+/* Section 3 About me */
+.about-me::after{
+    content: 'about me';
+}
+
+.section-title-technical{
+    font-size: 30px;
+    width: fit-content;
+    text-transform: uppercase;
+    display: inline-block;
+    position:relative;
+    text-align: center;
+}
+
+.section-title-technical::after{
+    position: absolute;
+    width: fit-content;
+    display: inline-block;
+    top: -10px;
+    left: -15px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.294);
+    color: transparent;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.technical-skill::after{
+    content: 'Technical Skills';
+    font-size: 20px;
+}
+
+/* Change the position of the image cover by top and right */
+.background-image-container{
+    width: 80vw;
+    max-width: 1000px;
+    position: relative;
+    max-height: 0px;
+    top: -500px;
+    right: 350px;
+}
+
+.background-image-container img{
+    object-fit: cover;
+}
+
+/* Change the position of the details by top and left */
+.details{
+    position: relative;
+    font-size: clamp(14px, 2vw, 20px);
+    font-family: 'Open Sans', sans-serif;
+    top: -70px;
+    left: 450px;
+}
+
+.aboutme{
+    position: relative;
+    font-size: clamp(14px, 2vw, 20px);
+    font-family: 'Open Sans', sans-serif;
+    top: -70px;
+    left: 850px;
+}
+
+.details h2{
+    font-size: clamp(20px, 1.4vw, 28px);
+}
+
+.details .bio{
+    max-width: 500px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+/* Section 4 Contact */
+.contact::after{
+    content: 'Contacts';
+}
+
+.section-title-contact{
+    max-width: fit-content;
+    font-size: 60px;
+    text-transform: uppercase;
+    display: inline-block;
+    position:relative;
+    text-align: center;
+    margin-bottom: 500px;
+    text-transform: uppercase;
+    left: 15px;
+}
+
+.section-title-contact::after{
+    content: 'Contact Information';
+    display: inline-block;
+    position: relative;
+    font-size: 60px;
+    top: -15px;
+    left: -45px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.294);
+    color: transparent;
+    letter-spacing: 5px;
+}
+
+.section-title-contact p{
+    max-width: fit-content;
+    position: absolute;
+    font-size: 60px;
+}
+span{
+    margin-top: 20px;
+    font-size: clamp(10px, 2.5vh, 23px);
+}
+
+span > div{
+    margin-top: 25px;
+}
+
+span p{
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(10px, 3vh, 38px);
+    margin-left: 22px;
+    
+}
+
+.contact-list-icon{
+    font-size: 30px;
+    
+}
+
+.Instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinkedIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Resumes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1920px) {
+    .Instagram{
+        margin-left: 80px;
+    }
+
+    .Gmail{
+        margin-left: -80px;
+    }
+
+    .Github{
+        margin-left: 80px;
+    }
+
+    .LinkedIn{
+        margin-left: -80px;
+    }
+    .Resumes{
+        margin-left: 80px;
+    }
+}
+/* Footer */
+.footer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(10px, 3vh, 38px);
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+    .name{
+        position: absolute;
+        top: 60px;
+        left: 50px;
+    }
+    
+    .name h2{
+        font-size: clamp(24px, 4vw, 56px);
+        letter-spacing: 4px;
+    }
+    
+    .name .last{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    .position{
+        margin-top: 140px;
+        margin-left: -30px;
+        font-size: clamp(24px, 4vw, 40px);
+    }
+
+    .position > div{
+        width: 10px;
+    }
+    
+    .position h2{
+        letter-spacing: 2px;
+        font-size: clamp(16px, 1vw, 26px);
+    }
+
+    .section-title{
+        font-size: 40px;
+    }
+    
+    .section-title::after{
+        top: -10px;
+        left: -40px;
+    }
+    .portfolio-content{
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+    }
+    
+    .position-card{
+        padding: 20px;
+        min-width: 120px;
+        margin-top: 15px;
+    }
+    
+    .count{
+        font-size: 1px;
+        left: -5px;
+    }
+    
+    .position-title h3{
+        color: white;
+        font-size: clamp(16px, 2vw, 1px);
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+    
+    .project-image{
+        height: 230px;
+    }
+    
+    .project-image img{
+        width: 200px;
+        height: 200px;
+    }
+    a{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .background-image-container{
+        visibility: hidden;
+    }
+    
+    .details{
+        max-width: 100%;
+        top: -20px;
+        left: 0px;
+        font-size: clamp(20px, 23vw, 39px);
+    }
+    
+    .details h2{
+        font-size: clamp(28px, 1.4vw, 70px);
+    }
+    
+    .details .bio{
+        font-size: 16px;
+        text-align:left;
+        margin-top: 20px;
+        color: white;
+    }
+    
+    .section-title-contact{
+        margin-bottom: 500px;
+        text-transform: uppercase;
+    }
+    
+    .section-title-contact::after{
+        font-size: 40px;
+        top: -15px;
+        left: 0px;
+        letter-spacing: 5px;
+    }
+    
+    .section-title-contact p{
+        max-width: fit-content;
+        position: absolute;
+        font-size: 40px;
+    }
+    span{
+        margin-top: 80px;
+        font-size: clamp(10px, 2.5vh, 23px);
+    }
+    
+    span > div{
+        margin-top: 25px;
+    }
+    
+    span p{
+        font-size: clamp(10px, 3vh, 20px);
+        margin-left: 10px;
+    }
+    
+    .contact-list-icon{
+        font-size: 20px;
+    }
+
+    .Instagram{
+        margin-left: 80px;
+    }
+
+    .Gmail{
+        margin-left: -80px;
+    }
+
+    .Github{
+        margin-left: 80px;
+    }
+
+    .LinkedIn{
+        margin-left: -80px;
+    }
+    .Resumes{
+        margin-left: 80px;
+    }
+
+    .section-title-technical{
+        font-size: 30px;
+    }
+    
+    .technical-skill::after{
+        font-size: 30px;
+        top: -10px;
+        left: 0px;
+    } 
+}
