@@ -316,9 +316,14 @@ span p{
     }
 }
 /* Footer */
+.section-footer{
+    text-align: center;
+}
+
 .footer{
     font-family: 'Open Sans', sans-serif;
-    font-size: clamp(10px, 3vh, 38px);
+    font-size: clamp(18px, 100vh, 40px);
+    margin-top: 10px;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {

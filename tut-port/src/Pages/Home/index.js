@@ -251,13 +251,11 @@ const Home = () => {
 
             <ScrollPage page={9}>
                 <Animator animation={batch(Fade(),Sticky())}>
-                    <span className="footer">
-                        Footer
-                    </span>
-                    <br/>
-                    <span className="footer">
-                        Footer
-                    </span>
+                    <div className="section-footer">
+                        <div className="footer">
+                            Thank you so much for your time !
+                        </div>
+                    </div>
                 </Animator>
             </ScrollPage>
 
